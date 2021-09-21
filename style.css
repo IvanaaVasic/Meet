@@ -360,6 +360,9 @@ header {
   .avatars-middle-column-right {
     justify-content: space-evenly;
   }
+  .avatars-middle-column-right > span:first-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 581px) {
@@ -467,6 +470,9 @@ header {
   .paragraph-footer {
     text-align: center;
   }
+  .avatars-middle-column-right > span:first-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 451px) {
@@ -489,7 +495,7 @@ header {
     margin-bottom: 15px;
   }
   .avatars-middle-column-right > span:first-child {
-    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
   }
   .img {
     height: 143px;
